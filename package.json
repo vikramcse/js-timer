@@ -1,0 +1,26 @@
+{
+  "name": "jstimer",
+  "version": "1.0.0",
+  "description": "A simple countdown timer using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramcse/js-timer.git"
+  },
+  "keywords": [],
+  "author": "Vikram Jadhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikramcse/js-timer/issues"
+  },
+  "homepage": "https://github.com/vikramcse/js-timer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
