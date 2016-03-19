@@ -1,0 +1,103 @@
+// variables
+$dark: #424652;
+$light: #9a9da4;
+$heighlight: #8bc6db;
+$border: #E9E9E9;
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 20px auto;
+}
+
+wrapper_padding {
+	padding: 4rem 0;
+}
+
+#main_navigation {
+  padding: 2em 5%;
+  border-bottom: 1px solid $border;
+  .name {
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid $border;
+    padding: 1rem;
+		color: $dark;
+		float: left;
+  }
+  nav {
+    float: right;
+		padding-top: 1.45rem;
+		a {
+			color: $dark;
+			text-decoration: none;
+			margin: 0 1rem;
+			font-size: 1rem;
+		}
+  }
+}
+
+.homepage_content {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-play {
+  background-color: #4CAF50; /* Green */
+}
+.btn-stop {
+  background-color: #f44336; /* Red type */
+}
+
+select {
+  padding: 11px 32px;
+  margin-top:8px;
+  line-height:1;
+  font-size:20px;
+  outline:none
+}
+
+.lab {
+  margin-right: 15px;
+}
+
+#time-view {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 50px;
+}
